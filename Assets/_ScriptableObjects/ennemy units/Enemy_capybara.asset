@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: Enemy_capybara
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Enemy_capybara
+  cost: 30
+  rewardCoins: 30
+  unitSprite: {fileID: 5721980256822942453, guid: 0737d2c1d43f5c042b587d798b359449, type: 3}
+  unitAnimator: {fileID: 9100000, guid: 9938d96826cd3524498a7dc36d2fe484, type: 2}
+  visualScale: 1
+  spawnOffset: {x: 0, y: 0, z: 0}
+  health: 100
+  attackDamage: 15
+  attackRange: 0.1
+  attackInterval: 1
+  moveSpeed: 2
+  spawnCooldown: 2
+  bossMusic: {fileID: 0}

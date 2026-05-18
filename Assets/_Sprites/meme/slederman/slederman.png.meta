@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: e7766d215371e5d4f964ae06899e1be5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6562085992000260694
+    second: slederman_0
+  - first:
+      213: 3821678359148388129
+    second: slederman_1
+  - first:
+      213: 8789487830799194548
+    second: slederman_2
+  - first:
+      213: 381438472507881966
+    second: slederman_3
+  - first:
+      213: -8430094298361274185
+    second: slederman_4
+  - first:
+      213: -1603036776212742941
+    second: slederman_5
+  - first:
+      213: -1219038742299095299
+    second: slederman_6
+  - first:
+      213: 5490090968919026349
+    second: slederman_7
+  - first:
+      213: -3699822572199108125
+    second: slederman_8
+  - first:
+      213: 7739401392103925750
+    second: slederman_9
+  - first:
+      213: -278197398129188758
+    second: slederman_10
+  - first:
+      213: -5318154823281418217
+    second: slederman_11
+  - first:
+      213: 2436317124665162876
+    second: slederman_12
+  - first:
+      213: -3739242476766433706
+    second: slederman_13
+  - first:
+      213: -7130174165471643598
+    second: slederman_14
+  - first:
+      213: -6220910927623132637
+    second: slederman_15
+  - first:
+      213: -9008645882531311499
+    second: slederman_16
+  - first:
+      213: 1230629762834631432
+    second: slederman_17
+  - first:
+      213: 2530493142479471760
+    second: slederman_18
+  - first:
+      213: -1363360626743295402
+    second: slederman_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slederman_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 585
+        width: 105
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b997680d988af970800000000000000
+      internalID: 8789487830799194548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 585
+        width: 107
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9ff7115442b4500800000000000000
+      internalID: 381438472507881966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 585
+        width: 119
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0612376e9420b80800000000000000
+      internalID: -8430094298361274185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_5
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 586
+        width: 112
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecb3f79b8ed0c9e0800000000000000
+      internalID: -1603036776212742941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_6
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 585
+        width: 109
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfec2ddf8ba151fe0800000000000000
+      internalID: -1219038742299095299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 160
+        width: 183
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaaff206a8b03c40800000000000000
+      internalID: 5490090968919026349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 164
+        width: 217
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1a91c19f697acc0800000000000000
+      internalID: -3699822572199108125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 163
+        width: 255
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7a48e9f80e76b60800000000000000
+      internalID: 7739401392103925750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 164
+        width: 230
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60621bb0f4a32cf0800000000000000
+      internalID: -278197398129188758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slederman_15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 165
+        width: 114
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a6dab9872eaa9a0800000000000000
+      internalID: -6220910927623132637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ae9c71cfdc7228a43a26a78acd88786b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slederman_0: -6562085992000260694
+      slederman_1: 3821678359148388129
+      slederman_10: -278197398129188758
+      slederman_11: -5318154823281418217
+      slederman_12: 2436317124665162876
+      slederman_13: -3739242476766433706
+      slederman_14: -7130174165471643598
+      slederman_15: -6220910927623132637
+      slederman_16: -9008645882531311499
+      slederman_17: 1230629762834631432
+      slederman_18: 2530493142479471760
+      slederman_19: -1363360626743295402
+      slederman_2: 8789487830799194548
+      slederman_3: 381438472507881966
+      slederman_4: -8430094298361274185
+      slederman_5: -1603036776212742941
+      slederman_6: -1219038742299095299
+      slederman_7: 5490090968919026349
+      slederman_8: -3699822572199108125
+      slederman_9: 7739401392103925750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

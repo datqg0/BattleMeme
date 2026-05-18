@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 20465a19d3b36dc47b26470c698b2ce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7291960917028768732
+    second: trollface_0
+  - first:
+      213: -3702340378361092118
+    second: trollface_1
+  - first:
+      213: -1657911697897961534
+    second: trollface_2
+  - first:
+      213: -3348885714752646271
+    second: trollface_3
+  - first:
+      213: -7270654108422850458
+    second: trollface_4
+  - first:
+      213: 2147730584856759379
+    second: trollface_5
+  - first:
+      213: -4435819349958653387
+    second: trollface_6
+  - first:
+      213: 8975943986338334799
+    second: trollface_7
+  - first:
+      213: 1834491818076825897
+    second: trollface_8
+  - first:
+      213: -7519210230636481058
+    second: trollface_9
+  - first:
+      213: 8091453027315543744
+    second: trollface_10
+  - first:
+      213: -1222072461885312631
+    second: trollface_11
+  - first:
+      213: -6706984868680147336
+    second: trollface_12
+  - first:
+      213: 2292862940023170232
+    second: trollface_13
+  - first:
+      213: -2618548160988032841
+    second: trollface_14
+  - first:
+      213: 3637545214403767294
+    second: trollface_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trollface_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 586
+        width: 123
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f7703e20cdca90800000000000000
+      internalID: -7291960917028768732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 586
+        width: 119
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7a33eaa05ae9cc0800000000000000
+      internalID: -3702340378361092118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 586
+        width: 128
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7c3d1481aedf8e0800000000000000
+      internalID: -1657911697897961534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_3
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 586
+        width: 124
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183d9c28f2e5681d0800000000000000
+      internalID: -3348885714752646271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_4
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 586
+        width: 127
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668b8b62c92791b90800000000000000
+      internalID: -7270654108422850458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 164
+        width: 233
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48008dbf75f09c70800000000000000
+      internalID: 8975943986338334799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_8
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 163
+        width: 182
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92964d7c69c657910800000000000000
+      internalID: 1834491818076825897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 166
+        width: 216
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5fd6b322666a790800000000000000
+      internalID: -7519210230636481058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_10
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 164
+        width: 241
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cee6e178ad9a4070800000000000000
+      internalID: 8091453027315543744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trollface_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 167
+        width: 137
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e566c0cc00ce2a0800000000000000
+      internalID: -6706984868680147336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0850324be830ae146b237f86c023091d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trollface_0: -7291960917028768732
+      trollface_1: -3702340378361092118
+      trollface_10: 8091453027315543744
+      trollface_11: -1222072461885312631
+      trollface_12: -6706984868680147336
+      trollface_13: 2292862940023170232
+      trollface_14: -2618548160988032841
+      trollface_15: 3637545214403767294
+      trollface_2: -1657911697897961534
+      trollface_3: -3348885714752646271
+      trollface_4: -7270654108422850458
+      trollface_5: 2147730584856759379
+      trollface_6: -4435819349958653387
+      trollface_7: 8975943986338334799
+      trollface_8: 1834491818076825897
+      trollface_9: -7519210230636481058
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

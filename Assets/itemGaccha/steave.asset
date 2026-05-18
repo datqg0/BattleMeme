@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: steave
+  m_EditorClassIdentifier: 
+  id: steave
+  characterName: steave
+  rarity: 0.3
+  prefab: {fileID: 3383855667139901787, guid: 4c0f6724a6ec514499583c06771f89c4, type: 3}
+  icon: {fileID: -2819181538213360609, guid: f23880dbf089fc14d95bc3b2ab0a1321, type: 3}
+  unitData: {fileID: 11400000, guid: 3ae1dd3a5d23a3f438d7f1210de55e99, type: 2}

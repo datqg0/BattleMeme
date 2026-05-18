@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: cappypara
+  m_EditorClassIdentifier: 
+  id: cappypara
+  characterName: cappypara
+  rarity: 0.1
+  prefab: {fileID: 3383855667139901787, guid: 9ade16ac76bc8cf4bb9505a652c0fa94, type: 3}
+  icon: {fileID: 3149610612175073690, guid: 43b1c24dd1c00ee4ba0efe60e85b9dda, type: 3}
+  unitData: {fileID: 11400000, guid: abfdcc2942bc6bc4e8078c60ac06a464, type: 2}

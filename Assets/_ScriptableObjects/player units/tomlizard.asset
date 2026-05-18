@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: tomlizard
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Pepe
+  cost: 35
+  rewardCoins: 0
+  unitSprite: {fileID: 5820220284585779677, guid: fd8d22cf9240739428c1fa8ae7a5750b, type: 3}
+  unitAnimator: {fileID: 9100000, guid: 136492aa168c17e41b039021347e1038, type: 2}
+  visualScale: 1
+  spawnOffset: {x: 0, y: 0, z: 0}
+  health: 450
+  attackDamage: 10
+  attackRange: 0.31
+  attackInterval: 1
+  moveSpeed: 0.71
+  spawnCooldown: 10
+  bossMusic: {fileID: 0}

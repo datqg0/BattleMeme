@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: b6a47d5d10bbd0643be3a9c8e24fabe1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2053439860173322959
+    second: panda_meme_0
+  - first:
+      213: -2985265694041959216
+    second: panda_meme_1
+  - first:
+      213: -5554340457098468441
+    second: panda_meme_2
+  - first:
+      213: -8861222704749785404
+    second: panda_meme_3
+  - first:
+      213: 3528404427986668490
+    second: panda_meme_4
+  - first:
+      213: -8553190586942875477
+    second: panda_meme_5
+  - first:
+      213: 6517083466353235329
+    second: panda_meme_6
+  - first:
+      213: 4456333387272336932
+    second: panda_meme_7
+  - first:
+      213: -590051177848844698
+    second: panda_meme_8
+  - first:
+      213: -3734946014417560275
+    second: panda_meme_9
+  - first:
+      213: -2542447754513044489
+    second: panda_meme_10
+  - first:
+      213: 7491403706757882512
+    second: panda_meme_11
+  - first:
+      213: 2225858316831975669
+    second: panda_meme_12
+  - first:
+      213: -3276622284715274343
+    second: panda_meme_13
+  - first:
+      213: -1990424055043183310
+    second: panda_meme_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: panda_meme_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 586
+        width: 136
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135cdb6a357b083e0800000000000000
+      internalID: -2053439860173322959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 586
+        width: 136
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4187afaa43296d0800000000000000
+      internalID: -2985265694041959216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 586
+        width: 136
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3a01d48c40be2b0800000000000000
+      internalID: -5554340457098468441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_3
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 586
+        width: 136
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce43c716ec960580800000000000000
+      internalID: -8861222704749785404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_4
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 585
+        width: 136
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb8f0a022967f030800000000000000
+      internalID: 3528404427986668490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 165
+        width: 150
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1855e8732e4517a50800000000000000
+      internalID: 6517083466353235329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 165
+        width: 151
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ec4097497bfc7f0800000000000000
+      internalID: -590051177848844698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 160
+        width: 179
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d5163736eca2cc0800000000000000
+      internalID: -3734946014417560275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 165
+        width: 213
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba24cdc3967bcd0800000000000000
+      internalID: -2542447754513044489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panda_meme_12
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 166
+        width: 132
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f86e179856d3ee10800000000000000
+      internalID: 2225858316831975669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c05339acf3a761e449490fe3dd35d0f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      panda_meme_0: -2053439860173322959
+      panda_meme_1: -2985265694041959216
+      panda_meme_10: -2542447754513044489
+      panda_meme_11: 7491403706757882512
+      panda_meme_12: 2225858316831975669
+      panda_meme_13: -3276622284715274343
+      panda_meme_14: -1990424055043183310
+      panda_meme_2: -5554340457098468441
+      panda_meme_3: -8861222704749785404
+      panda_meme_4: 3528404427986668490
+      panda_meme_5: -8553190586942875477
+      panda_meme_6: 6517083466353235329
+      panda_meme_7: 4456333387272336932
+      panda_meme_8: -590051177848844698
+      panda_meme_9: -3734946014417560275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

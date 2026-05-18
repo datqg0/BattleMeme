@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 5dc2925f37fb30546b5c96e18154a35e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6746479780183123016
+    second: taoanhdep_xoa_nen_anh_45076_0
+  - first:
+      213: -7908323004450035569
+    second: taoanhdep_xoa_nen_anh_45076_1
+  - first:
+      213: -478677952854523460
+    second: taoanhdep_xoa_nen_anh_45076_2
+  - first:
+      213: 356295233985257371
+    second: taoanhdep_xoa_nen_anh_45076_3
+  - first:
+      213: 8892767702855189351
+    second: taoanhdep_xoa_nen_anh_45076_4
+  - first:
+      213: 3168739678959325203
+    second: taoanhdep_xoa_nen_anh_45076_5
+  - first:
+      213: -832863847010062927
+    second: taoanhdep_xoa_nen_anh_45076_6
+  - first:
+      213: -7026582911438010658
+    second: taoanhdep_xoa_nen_anh_45076_7
+  - first:
+      213: -2703960533481832235
+    second: taoanhdep_xoa_nen_anh_45076_8
+  - first:
+      213: -4557939917383717909
+    second: taoanhdep_xoa_nen_anh_45076_9
+  - first:
+      213: 5326019008613432761
+    second: taoanhdep_xoa_nen_anh_45076_10
+  - first:
+      213: 1116419373683026399
+    second: taoanhdep_xoa_nen_anh_45076_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 584
+        width: 130
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb18b4220f46b59f0800000000000000
+      internalID: -478677952854523460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 584
+        width: 131
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f1bd8a0a0d1f400800000000000000
+      internalID: 356295233985257371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_4
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 584
+        width: 131
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76300ce1c15796b70800000000000000
+      internalID: 8892767702855189351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 584
+        width: 130
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3105e0603ff99fb20800000000000000
+      internalID: 3168739678959325203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_6
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 584
+        width: 130
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd23bc6eb21174f0800000000000000
+      internalID: -832863847010062927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 166
+        width: 135
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed648ea02109c7e90800000000000000
+      internalID: -7026582911438010658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 165
+        width: 177
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0c323983a997ad0800000000000000
+      internalID: -2703960533481832235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_9
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 165
+        width: 156
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb25cc4bc1feb0c0800000000000000
+      internalID: -4557939917383717909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_10
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 165
+        width: 139
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdb163e112d9e940800000000000000
+      internalID: 5326019008613432761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taoanhdep_xoa_nen_anh_45076_11
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 166
+        width: 129
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9adbc51815e7f00800000000000000
+      internalID: 1116419373683026399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e1453a999919f5248ac8985f371c69ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      taoanhdep_xoa_nen_anh_45076_0: 6746479780183123016
+      taoanhdep_xoa_nen_anh_45076_1: -7908323004450035569
+      taoanhdep_xoa_nen_anh_45076_10: 5326019008613432761
+      taoanhdep_xoa_nen_anh_45076_11: 1116419373683026399
+      taoanhdep_xoa_nen_anh_45076_2: -478677952854523460
+      taoanhdep_xoa_nen_anh_45076_3: 356295233985257371
+      taoanhdep_xoa_nen_anh_45076_4: 8892767702855189351
+      taoanhdep_xoa_nen_anh_45076_5: 3168739678959325203
+      taoanhdep_xoa_nen_anh_45076_6: -832863847010062927
+      taoanhdep_xoa_nen_anh_45076_7: -7026582911438010658
+      taoanhdep_xoa_nen_anh_45076_8: -2703960533481832235
+      taoanhdep_xoa_nen_anh_45076_9: -4557939917383717909
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

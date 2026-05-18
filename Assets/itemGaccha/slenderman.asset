@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: slenderman
+  m_EditorClassIdentifier: 
+  id: slenderman
+  characterName: slenderman
+  rarity: 0.002
+  prefab: {fileID: 3383855667139901787, guid: 658afb21f83772140ab21c28d5857e54, type: 3}
+  icon: {fileID: 5918139632805705619, guid: a1bb4a7813d6414409c73a059799b51b, type: 3}
+  unitData: {fileID: 11400000, guid: f00249126cc412b4894e1e39a13f640e, type: 2}

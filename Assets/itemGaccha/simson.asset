@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: simson
+  m_EditorClassIdentifier: 
+  id: simson
+  characterName: simson
+  rarity: 0.2
+  prefab: {fileID: 3383855667139901787, guid: a7945826dc3180744bab61ab3745c242, type: 3}
+  icon: {fileID: 1830663089504347707, guid: f1c0602b40266734a95ace9b56dcb06e, type: 3}
+  unitData: {fileID: 11400000, guid: 67ce10d1c49825f418840beb07378bb7, type: 2}

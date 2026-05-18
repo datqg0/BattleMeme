@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: bitchplese(unit_template)
+  m_EditorClassIdentifier: 
+  id: bitchplese(unit_template)
+  characterName: bitchplese(unit_template)
+  rarity: 0.01
+  prefab: {fileID: 3383855667139901787, guid: 023687009c542cf4b89b065fa2bf0b60, type: 3}
+  icon: {fileID: 1831801422928125737, guid: e004ac273c548ec4dbeb98dfdea3edbf, type: 3}
+  unitData: {fileID: 11400000, guid: 4a4a8bc5f240ff74a819d1e07d880385, type: 2}

@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 1a343d44474cd6e41aa2b0741e464d6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1016961208858268277
+    second: ishowspeed_0
+  - first:
+      213: -1155974774267255349
+    second: ishowspeed_1
+  - first:
+      213: -6827512397286518012
+    second: ishowspeed_2
+  - first:
+      213: 2952465841800449727
+    second: ishowspeed_3
+  - first:
+      213: 3730965051190416449
+    second: ishowspeed_4
+  - first:
+      213: -8785485824219807142
+    second: ishowspeed_5
+  - first:
+      213: 2858889677792810570
+    second: ishowspeed_6
+  - first:
+      213: 8469527330344673763
+    second: ishowspeed_7
+  - first:
+      213: -6186071382291051480
+    second: ishowspeed_8
+  - first:
+      213: -7632597862052392564
+    second: ishowspeed_9
+  - first:
+      213: -3236173395772793434
+    second: ishowspeed_10
+  - first:
+      213: -4233214818566689099
+    second: ishowspeed_11
+  - first:
+      213: 1898221120232324693
+    second: ishowspeed_12
+  - first:
+      213: -7094538700238546847
+    second: ishowspeed_13
+  - first:
+      213: -499577988686422570
+    second: ishowspeed_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ishowspeed_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 585
+        width: 136
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5725954d4d8fc1e00800000000000000
+      internalID: 1016961208858268277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_1
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 585
+        width: 136
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5ec72411725ffe0800000000000000
+      internalID: -1155974774267255349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 585
+        width: 136
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403592cf5adcf31a0800000000000000
+      internalID: -6827512397286518012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_3
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 585
+        width: 136
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe8dff4a0449f820800000000000000
+      internalID: 2952465841800449727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_4
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 585
+        width: 137
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1441a9152fc07c330800000000000000
+      internalID: 3730965051190416449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52062cb03fa31680800000000000000
+      internalID: -8785485824219807142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 157
+        width: 196
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a461fd0d301dca720800000000000000
+      internalID: 2858889677792810570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_8
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 165
+        width: 218
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c055f5ad8a62aa0800000000000000
+      internalID: -6186071382291051480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_9
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 166
+        width: 136
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8116f60fa0931690800000000000000
+      internalID: -7632597862052392564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ishowspeed_10
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 158
+        width: 164
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad9469417dc613d0800000000000000
+      internalID: -3236173395772793434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 20dbbf02ead614c42b2be3e10f1ecaa2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ishowspeed_0: 1016961208858268277
+      ishowspeed_1: -1155974774267255349
+      ishowspeed_10: -3236173395772793434
+      ishowspeed_11: -4233214818566689099
+      ishowspeed_12: 1898221120232324693
+      ishowspeed_13: -7094538700238546847
+      ishowspeed_14: -499577988686422570
+      ishowspeed_2: -6827512397286518012
+      ishowspeed_3: 2952465841800449727
+      ishowspeed_4: 3730965051190416449
+      ishowspeed_5: -8785485824219807142
+      ishowspeed_6: 2858889677792810570
+      ishowspeed_7: 8469527330344673763
+      ishowspeed_8: -6186071382291051480
+      ishowspeed_9: -7632597862052392564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

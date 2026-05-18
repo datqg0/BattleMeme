@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: Enemy_pewpew
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Enemy_pewpew
+  cost: 60
+  rewardCoins: 50
+  unitSprite: {fileID: 684337887656328383, guid: 2c720d00af5611648a8bfbb2d47e3264, type: 3}
+  unitAnimator: {fileID: 9100000, guid: e00f3edd779e83f428d12b7b9b2ce4b1, type: 2}
+  health: 60
+  attackDamage: 8
+  attackRange: 0.1
+  attackInterval: 1.2
+  moveSpeed: 1.5
+  spawnCooldown: 0

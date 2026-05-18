@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 541576aa33e40e34c9cc1e9ca49673de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8665188376377594661
+    second: saltedeggs_0
+  - first:
+      213: 5712195736226252823
+    second: saltedeggs_1
+  - first:
+      213: 1965263436818886530
+    second: saltedeggs_2
+  - first:
+      213: -1388547298065354824
+    second: saltedeggs_3
+  - first:
+      213: 3154878004593153309
+    second: saltedeggs_4
+  - first:
+      213: 6118695758813238215
+    second: saltedeggs_5
+  - first:
+      213: -8630596902665405743
+    second: saltedeggs_6
+  - first:
+      213: 8796511188289159176
+    second: saltedeggs_7
+  - first:
+      213: 8150099834262442751
+    second: saltedeggs_8
+  - first:
+      213: 543392206137986491
+    second: saltedeggs_9
+  - first:
+      213: -3137152280743707506
+    second: saltedeggs_10
+  - first:
+      213: 1586578708421429250
+    second: saltedeggs_11
+  - first:
+      213: 7744164010821565841
+    second: saltedeggs_12
+  - first:
+      213: -3616804692942607124
+    second: saltedeggs_13
+  - first:
+      213: -7110384282266035869
+    second: saltedeggs_14
+  - first:
+      213: -7169430589005073183
+    second: saltedeggs_15
+  - first:
+      213: -7203313879433914262
+    second: saltedeggs_16
+  - first:
+      213: 855266718153895476
+    second: saltedeggs_17
+  - first:
+      213: 3807644946279471960
+    second: saltedeggs_18
+  - first:
+      213: -8560164502554268931
+    second: saltedeggs_19
+  - first:
+      213: 2902461959282213284
+    second: saltedeggs_20
+  - first:
+      213: 4776110752053614786
+    second: saltedeggs_21
+  - first:
+      213: 841517654027831490
+    second: saltedeggs_22
+  - first:
+      213: -4302842007959744089
+    second: saltedeggs_23
+  - first:
+      213: 3431946552679378724
+    second: saltedeggs_24
+  - first:
+      213: -2367296835644845025
+    second: saltedeggs_25
+  - first:
+      213: -5794800576796328595
+    second: saltedeggs_26
+  - first:
+      213: 3290689760768822564
+    second: saltedeggs_27
+  - first:
+      213: 1224242074073638522
+    second: saltedeggs_28
+  - first:
+      213: -5735280264344573434
+    second: saltedeggs_29
+  - first:
+      213: -7846185573916053004
+    second: saltedeggs_30
+  - first:
+      213: 4520601955008513057
+    second: saltedeggs_31
+  - first:
+      213: 7590246526235128922
+    second: saltedeggs_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saltedeggs_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 839
+        width: 224
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c390c8df59f9e450800000000000000
+      internalID: 6118695758813238215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 840
+        width: 233
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daba0908d5f93880800000000000000
+      internalID: -8630596902665405743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 835
+        width: 236
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80089b0e15c731a70800000000000000
+      internalID: 8796511188289159176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 843
+        width: 235
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2de214e98fa1170800000000000000
+      internalID: 8150099834262442751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_9
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 843
+        width: 245
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd029c15548a8700800000000000000
+      internalID: 543392206137986491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 318
+        width: 207
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b9cc5a7e877d430800000000000000
+      internalID: 3807644946279471960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 328
+        width: 241
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa28561dbf243980800000000000000
+      internalID: -8560164502554268931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 318
+        width: 216
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1c91926cd974820800000000000000
+      internalID: 2902461959282213284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_21
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 326
+        width: 183
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c854109c67284240800000000000000
+      internalID: 4776110752053614786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltedeggs_22
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 318
+        width: 199
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c88c8809dbadab00800000000000000
+      internalID: 841517654027831490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94cdc7c135c38bb40ac25250e7841d40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      saltedeggs_0: -8665188376377594661
+      saltedeggs_1: 5712195736226252823
+      saltedeggs_10: -3137152280743707506
+      saltedeggs_11: 1586578708421429250
+      saltedeggs_12: 7744164010821565841
+      saltedeggs_13: -3616804692942607124
+      saltedeggs_14: -7110384282266035869
+      saltedeggs_15: -7169430589005073183
+      saltedeggs_16: -7203313879433914262
+      saltedeggs_17: 855266718153895476
+      saltedeggs_18: 3807644946279471960
+      saltedeggs_19: -8560164502554268931
+      saltedeggs_2: 1965263436818886530
+      saltedeggs_20: 2902461959282213284
+      saltedeggs_21: 4776110752053614786
+      saltedeggs_22: 841517654027831490
+      saltedeggs_23: -4302842007959744089
+      saltedeggs_24: 3431946552679378724
+      saltedeggs_25: -2367296835644845025
+      saltedeggs_26: -5794800576796328595
+      saltedeggs_27: 3290689760768822564
+      saltedeggs_28: 1224242074073638522
+      saltedeggs_29: -5735280264344573434
+      saltedeggs_3: -1388547298065354824
+      saltedeggs_30: -7846185573916053004
+      saltedeggs_31: 4520601955008513057
+      saltedeggs_32: 7590246526235128922
+      saltedeggs_4: 3154878004593153309
+      saltedeggs_5: 6118695758813238215
+      saltedeggs_6: -8630596902665405743
+      saltedeggs_7: 8796511188289159176
+      saltedeggs_8: 8150099834262442751
+      saltedeggs_9: 543392206137986491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

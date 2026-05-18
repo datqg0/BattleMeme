@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 2c720d00af5611648a8bfbb2d47e3264
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 684337887656328383
+    second: pewpew_0
+  - first:
+      213: 7900750298586270344
+    second: pewpew_1
+  - first:
+      213: 7867229451194086383
+    second: pewpew_2
+  - first:
+      213: -5920241489786662173
+    second: pewpew_3
+  - first:
+      213: 7210013301312321316
+    second: pewpew_4
+  - first:
+      213: -7399361619349881627
+    second: pewpew_5
+  - first:
+      213: -4565069225486687287
+    second: pewpew_6
+  - first:
+      213: 6661369873531747184
+    second: pewpew_7
+  - first:
+      213: -9090079480327876507
+    second: pewpew_8
+  - first:
+      213: -8546461669438634787
+    second: pewpew_9
+  - first:
+      213: -7888041318577103382
+    second: pewpew_10
+  - first:
+      213: 927239376571843502
+    second: pewpew_11
+  - first:
+      213: 4568198007868619993
+    second: pewpew_12
+  - first:
+      213: 6362206202065545058
+    second: pewpew_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pewpew_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 584
+        width: 192
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcb81cdea14f7900800000000000000
+      internalID: 684337887656328383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 584
+        width: 192
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88acb4e598a15ad60800000000000000
+      internalID: 7900750298586270344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_2
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 584
+        width: 188
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe33ae4e0830e2d60800000000000000
+      internalID: 7867229451194086383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_3
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 584
+        width: 192
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e29cb85bb317dda0800000000000000
+      internalID: -5920241489786662173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_4
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 584
+        width: 187
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427ff82b5ec1f0460800000000000000
+      internalID: 7210013301312321316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 164
+        width: 183
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecbdf98fcf205990800000000000000
+      internalID: -7399361619349881627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_6
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 164
+        width: 202
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c36cc7e9bd95a0c0800000000000000
+      internalID: -4565069225486687287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_7
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 164
+        width: 183
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b39554b90f17c50800000000000000
+      internalID: 6661369873531747184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_8
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 157
+        width: 235
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5605dfabfdc89d180800000000000000
+      internalID: -9090079480327876507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pewpew_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 164
+        width: 179
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed9b90a63c088290800000000000000
+      internalID: -7888041318577103382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e448fae4586f75043a45be4c4e8121fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pewpew_0: 684337887656328383
+      pewpew_1: 7900750298586270344
+      pewpew_10: -7888041318577103382
+      pewpew_11: 927239376571843502
+      pewpew_12: 4568198007868619993
+      pewpew_13: 6362206202065545058
+      pewpew_2: 7867229451194086383
+      pewpew_3: -5920241489786662173
+      pewpew_4: 7210013301312321316
+      pewpew_5: -7399361619349881627
+      pewpew_6: -4565069225486687287
+      pewpew_7: 6661369873531747184
+      pewpew_8: -9090079480327876507
+      pewpew_9: -8546461669438634787
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

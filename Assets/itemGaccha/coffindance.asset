@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: coffindance
+  m_EditorClassIdentifier: 
+  id: coffindance
+  characterName: coffindance
+  rarity: 0.2
+  prefab: {fileID: 3383855667139901787, guid: 5bd89e562bbf9ad429ac7373562230f4, type: 3}
+  icon: {fileID: -6384969798933345822, guid: 8a28ca61da9257b4f829bb3b4f0ea855, type: 3}
+  unitData: {fileID: 11400000, guid: c203fa15af0e30040a4702ef10991b95, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: ishowspeed
+  m_EditorClassIdentifier: 
+  id: ishowspeed
+  characterName: ishowspeed
+  rarity: 0.01
+  prefab: {fileID: 3383855667139901787, guid: ffbeee0ba6e9ff744b675d1571429657, type: 3}
+  icon: {fileID: -1121096699854108459, guid: 94580f5014dba9848b3d8cb4905c0cf7, type: 3}
+  unitData: {fileID: 11400000, guid: 32a475b391fec354584ebd03758de8f7, type: 2}

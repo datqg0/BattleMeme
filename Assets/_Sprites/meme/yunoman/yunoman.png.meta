@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 8a5c166ded319e8458a3af6dcb7f93be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1942919097412991914
+    second: yunoman_0
+  - first:
+      213: -5652265054626557137
+    second: yunoman_1
+  - first:
+      213: 3959371039512955548
+    second: yunoman_2
+  - first:
+      213: 5556959981706733598
+    second: yunoman_3
+  - first:
+      213: -7557076522599665834
+    second: yunoman_4
+  - first:
+      213: -254624042513530506
+    second: yunoman_5
+  - first:
+      213: -5058857246795852032
+    second: yunoman_6
+  - first:
+      213: 4168242886945909695
+    second: yunoman_7
+  - first:
+      213: -2194608866299353099
+    second: yunoman_8
+  - first:
+      213: -2324958636415640174
+    second: yunoman_9
+  - first:
+      213: -1186521533611136753
+    second: yunoman_10
+  - first:
+      213: -4249661504025997814
+    second: yunoman_11
+  - first:
+      213: -7887856879225670423
+    second: yunoman_12
+  - first:
+      213: -7759690888048986574
+    second: yunoman_13
+  - first:
+      213: 8445862042521306234
+    second: yunoman_14
+  - first:
+      213: 7463467986742005690
+    second: yunoman_15
+  - first:
+      213: -405909844268665108
+    second: yunoman_16
+  - first:
+      213: -2798242721920667257
+    second: yunoman_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yunoman_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 585
+        width: 130
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654406bff5d5905e0800000000000000
+      internalID: -1942919097412991914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 586
+        width: 131
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2351aa31ee1f81b0800000000000000
+      internalID: -5652265054626557137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 586
+        width: 130
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a83289bf282f630800000000000000
+      internalID: 3959371039512955548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_3
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 585
+        width: 130
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18e0bc49a94e1d40800000000000000
+      internalID: 5556959981706733598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_4
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 585
+        width: 130
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fa00a11fedf1790800000000000000
+      internalID: -7557076522599665834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 161
+        width: 147
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a1ce93f0a88fe0800000000000000
+      internalID: -1186521533611136753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 165
+        width: 175
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ec0e4b06b2605c0800000000000000
+      internalID: -4249661504025997814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_12
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 165
+        width: 151
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4f1a2c5f3b88290800000000000000
+      internalID: -7887856879225670423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_13
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 165
+        width: 213
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236310bff3a005490800000000000000
+      internalID: -7759690888048986574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yunoman_15
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 165
+        width: 128
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfc14e3790939760800000000000000
+      internalID: 7463467986742005690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af8864bb7ac51984881efe61c4d9a8d3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yunoman_0: -1942919097412991914
+      yunoman_1: -5652265054626557137
+      yunoman_10: -1186521533611136753
+      yunoman_11: -4249661504025997814
+      yunoman_12: -7887856879225670423
+      yunoman_13: -7759690888048986574
+      yunoman_14: 8445862042521306234
+      yunoman_15: 7463467986742005690
+      yunoman_16: -405909844268665108
+      yunoman_17: -2798242721920667257
+      yunoman_2: 3959371039512955548
+      yunoman_3: 5556959981706733598
+      yunoman_4: -7557076522599665834
+      yunoman_5: -254624042513530506
+      yunoman_6: -5058857246795852032
+      yunoman_7: 4168242886945909695
+      yunoman_8: -2194608866299353099
+      yunoman_9: -2324958636415640174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca5ed2535f4662488ddedf4f1ff20b6, type: 3}
+  m_Name: Level_5
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelNumber: 5
+  enemyHealthMultiplier: 1
+  baseHealthMultiplier: 5
+  levelEnemies:
+  - {fileID: 11400000, guid: dd76ca16b1182ed4097f280ea20dfa38, type: 2}
+  - {fileID: 11400000, guid: 6b8cb227cd4ecde438d8bccb53224fcc, type: 2}
+  - {fileID: 11400000, guid: 123f3ef8fe4a6ad479d673be613818ef, type: 2}
+  - {fileID: 11400000, guid: fecf5d3a07a2c3e4ba2ef4b73e783ba7, type: 2}
+  - {fileID: 11400000, guid: 1fce563c6dd0e24418577f5f3074d554, type: 2}
+  - {fileID: 11400000, guid: b471cc89dfa78644a9b190a6f6d2691f, type: 2}
+  bossUnit: {fileID: 11400000, guid: d798c37a12fae444aac86ded0af9a164, type: 2}
+  enemiesToKillForBoss: 25
+  levelBackground: {fileID: -1002130978339182218, guid: 0f6600e946d65f6478457a73e92d6056, type: 3}
+  playerBaseSprite: {fileID: -2008963822829355752, guid: 57b74a43de7507b468628f2c46d67f2f, type: 3}
+  enemyBaseSprite: {fileID: 8606453610214823136, guid: a913808a26c740c4698b69566d1705b9, type: 3}
+  levelBGM: {fileID: 8300000, guid: 3bfb03bf76240e44fbe700695f5a9f58, type: 3}
+  completionBonus: 2000
+  coinRewardPerEnemy: 5
+  nextLevel: {fileID: 0}

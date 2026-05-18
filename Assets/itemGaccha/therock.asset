@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: therock
+  m_EditorClassIdentifier: 
+  id: therock
+  characterName: therock
+  rarity: 0.04
+  prefab: {fileID: 3383855667139901787, guid: c7153ac0808579d4e81d6929ad10c9b6, type: 3}
+  icon: {fileID: -2182124076254010665, guid: a74d06dcced725344b57e90de38788fc, type: 3}
+  unitData: {fileID: 11400000, guid: 77034469a2e022242996ace4830663ca, type: 2}

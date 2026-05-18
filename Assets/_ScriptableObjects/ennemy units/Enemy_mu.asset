@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: Enemy_mu
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Enemy_mu
+  cost: 30
+  rewardCoins: 30
+  unitSprite: {fileID: 5726868927481327673, guid: be6ae660a88b70f41909dff3c4e51986, type: 3}
+  unitAnimator: {fileID: 9100000, guid: 55edd67533b925e4d9d0121a0dddcac7, type: 2}
+  health: 100
+  attackDamage: 15
+  attackRange: 0.1
+  attackInterval: 1
+  moveSpeed: 2
+  spawnCooldown: 0

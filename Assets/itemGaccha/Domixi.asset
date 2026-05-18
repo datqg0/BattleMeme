@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: Domixi
+  m_EditorClassIdentifier: Assembly-CSharp::GachaItemSO
+  id: domixi
+  characterName: "\u0110\u1ED9 Mixi"
+  rarity: 0.1
+  prefab: {fileID: 3383855667139901787, guid: 45a9494fe06c1214881f48c3a9005ebb, type: 3}
+  icon: {fileID: 5747889533200651394, guid: fc9473a9b7c72ea4480e33def6fce94e, type: 3}
+  unitData: {fileID: 11400000, guid: abd87a87d5dd60c46b76ffb4049863d7, type: 2}

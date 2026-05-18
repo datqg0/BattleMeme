@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 60a12bb51fcbb0c4b8658692039f8c3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 880995760055473841
+    second: simson_0
+  - first:
+      213: 4938589029362850237
+    second: simson_1
+  - first:
+      213: -3301808853112655974
+    second: simson_2
+  - first:
+      213: -8219279055615500954
+    second: simson_3
+  - first:
+      213: -4338858666589447119
+    second: simson_4
+  - first:
+      213: -6374266340855901351
+    second: simson_5
+  - first:
+      213: -1614004019585471674
+    second: simson_6
+  - first:
+      213: -431762982905863392
+    second: simson_7
+  - first:
+      213: 4407212306849039956
+    second: simson_8
+  - first:
+      213: -1831380536150249702
+    second: simson_9
+  - first:
+      213: 7560855524971145937
+    second: simson_10
+  - first:
+      213: 1224041862968748740
+    second: simson_11
+  - first:
+      213: 6020304466833867162
+    second: simson_12
+  - first:
+      213: 1762251844023966389
+    second: simson_13
+  - first:
+      213: 51865380671246841
+    second: simson_14
+  - first:
+      213: -3494686018134106263
+    second: simson_15
+  - first:
+      213: 2768618029824841354
+    second: simson_16
+  - first:
+      213: -1317431014028186307
+    second: simson_17
+  - first:
+      213: -7221916055284696063
+    second: simson_18
+  - first:
+      213: 2361943252410148176
+    second: simson_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: simson_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 585
+        width: 123
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b65bbed9fce93c00800000000000000
+      internalID: 880995760055473841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 585
+        width: 123
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db950d27e84698440800000000000000
+      internalID: 4938589029362850237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 585
+        width: 128
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9feaf1875e9d22d0800000000000000
+      internalID: -3301808853112655974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 585
+        width: 122
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dda3c1f314fed80800000000000000
+      internalID: -8219279055615500954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_4
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 585
+        width: 125
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c9f4fe70749c3c0800000000000000
+      internalID: -4338858666589447119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 161
+        width: 267
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b2e8245e7e999e0800000000000000
+      internalID: -1614004019585471674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 165
+        width: 160
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023abb8cad1120af0800000000000000
+      internalID: -431762982905863392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 163
+        width: 228
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456877f1e30992d30800000000000000
+      internalID: 4407212306849039956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_9
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 165
+        width: 149
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f233efa11a596e0800000000000000
+      internalID: -1831380536150249702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simson_13
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 165
+        width: 126
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba53df17b6c47810800000000000000
+      internalID: 1762251844023966389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7e9c896b824e88f439294c722a1d87ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      simson_0: 880995760055473841
+      simson_1: 4938589029362850237
+      simson_10: 7560855524971145937
+      simson_11: 1224041862968748740
+      simson_12: 6020304466833867162
+      simson_13: 1762251844023966389
+      simson_14: 51865380671246841
+      simson_15: -3494686018134106263
+      simson_16: 2768618029824841354
+      simson_17: -1317431014028186307
+      simson_18: -7221916055284696063
+      simson_19: 2361943252410148176
+      simson_2: -3301808853112655974
+      simson_3: -8219279055615500954
+      simson_4: -4338858666589447119
+      simson_5: -6374266340855901351
+      simson_6: -1614004019585471674
+      simson_7: -431762982905863392
+      simson_8: 4407212306849039956
+      simson_9: -1831380536150249702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

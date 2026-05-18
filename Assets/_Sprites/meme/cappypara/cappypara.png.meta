@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 0737d2c1d43f5c042b587d798b359449
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5721980256822942453
+    second: cappypara_0
+  - first:
+      213: 4205935749663741853
+    second: cappypara_1
+  - first:
+      213: -7395424413354223455
+    second: cappypara_2
+  - first:
+      213: -354280349607746990
+    second: cappypara_3
+  - first:
+      213: -599753579367560144
+    second: cappypara_4
+  - first:
+      213: 7482191455275433197
+    second: cappypara_5
+  - first:
+      213: 1800827371151073815
+    second: cappypara_6
+  - first:
+      213: 5692073564330962404
+    second: cappypara_7
+  - first:
+      213: -8141899284565964697
+    second: cappypara_8
+  - first:
+      213: -6105697053454599881
+    second: cappypara_9
+  - first:
+      213: -2625992057319852019
+    second: cappypara_10
+  - first:
+      213: -2048831874068424063
+    second: cappypara_11
+  - first:
+      213: 1700825992998639975
+    second: cappypara_12
+  - first:
+      213: -1092429691164774824
+    second: cappypara_13
+  - first:
+      213: -1689051069323655829
+    second: cappypara_14
+  - first:
+      213: -252306949996941626
+    second: cappypara_15
+  - first:
+      213: -4297217551121519928
+    second: cappypara_16
+  - first:
+      213: -8362154736078358210
+    second: cappypara_17
+  - first:
+      213: -5089966693483419059
+    second: cappypara_18
+  - first:
+      213: 4508804612717410333
+    second: cappypara_19
+  - first:
+      213: 8680760089587733466
+    second: cappypara_20
+  - first:
+      213: -4961517739147106644
+    second: cappypara_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cappypara_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 583
+        width: 174
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fadabb2abe886f40800000000000000
+      internalID: 5721980256822942453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 583
+        width: 183
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97d2d2c74c7e5a30800000000000000
+      internalID: 4205935749663741853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 583
+        width: 169
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a815cebdac2e5990800000000000000
+      internalID: -7395424413354223455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_3
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 583
+        width: 206
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252aaba26e7551bf0800000000000000
+      internalID: -354280349607746990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_4
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 583
+        width: 150
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c07051c4f3da7f0800000000000000
+      internalID: -599753579367560144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 164
+        width: 160
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65487d50094f88e0800000000000000
+      internalID: -1689051069323655829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 164
+        width: 191
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cee11f6a20af7cf0800000000000000
+      internalID: -252306949996941626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_16
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 164
+        width: 151
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cae3d6a7673d54c0800000000000000
+      internalID: -4297217551121519928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_17
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 164
+        width: 199
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39f2377298a3fb80800000000000000
+      internalID: -8362154736078358210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cappypara_18
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 162
+        width: 181
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ae954924ecc59b0800000000000000
+      internalID: -5089966693483419059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 68dfae962a7094044a227c18aeb1228e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cappypara_0: 5721980256822942453
+      cappypara_1: 4205935749663741853
+      cappypara_10: -2625992057319852019
+      cappypara_11: -2048831874068424063
+      cappypara_12: 1700825992998639975
+      cappypara_13: -1092429691164774824
+      cappypara_14: -1689051069323655829
+      cappypara_15: -252306949996941626
+      cappypara_16: -4297217551121519928
+      cappypara_17: -8362154736078358210
+      cappypara_18: -5089966693483419059
+      cappypara_19: 4508804612717410333
+      cappypara_2: -7395424413354223455
+      cappypara_20: 8680760089587733466
+      cappypara_21: -4961517739147106644
+      cappypara_3: -354280349607746990
+      cappypara_4: -599753579367560144
+      cappypara_5: 7482191455275433197
+      cappypara_6: 1800827371151073815
+      cappypara_7: 5692073564330962404
+      cappypara_8: -8141899284565964697
+      cappypara_9: -6105697053454599881
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

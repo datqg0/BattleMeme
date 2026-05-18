@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: simson
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Pepe
+  cost: 165
+  rewardCoins: 0
+  unitSprite: {fileID: 880995760055473841, guid: 60a12bb51fcbb0c4b8658692039f8c3a, type: 3}
+  unitAnimator: {fileID: 9100000, guid: 5158ae0b46f25db469857e72580a55dd, type: 2}
+  visualScale: 1
+  spawnOffset: {x: 0, y: 0, z: 0}
+  health: 300
+  attackDamage: 50
+  attackRange: 0.65
+  attackInterval: 0.5
+  moveSpeed: 0.7
+  spawnCooldown: 8
+  bossMusic: {fileID: 0}

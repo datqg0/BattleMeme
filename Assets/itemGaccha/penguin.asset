@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d1bacbe841898c489aed6897d2a88e7, type: 3}
+  m_Name: penguin
+  m_EditorClassIdentifier: 
+  id: penguin
+  characterName: penguin
+  rarity: 0.04
+  prefab: {fileID: 3383855667139901787, guid: c66b49b65a83b484aabd71d22b9479c9, type: 3}
+  icon: {fileID: -1562986851966726590, guid: 9dc0e76f5ffe3fd40a051d6fca99dffa, type: 3}
+  unitData: {fileID: 11400000, guid: c6e77f352d2fe984db2a4b124068213b, type: 2}

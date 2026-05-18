@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf0e7677380f184db033a5bfcb07a8d, type: 3}
+  m_Name: slenderman
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Pepe
+  cost: 90
+  rewardCoins: 0
+  unitSprite: {fileID: 8789487830799194548, guid: e7766d215371e5d4f964ae06899e1be5, type: 3}
+  unitAnimator: {fileID: 9100000, guid: ff33d5786d3823848865adad99d4eed2, type: 2}
+  visualScale: 1
+  spawnOffset: {x: 0, y: 0, z: 0}
+  health: 250
+  attackDamage: 15
+  attackRange: 0.3
+  attackInterval: 0.25
+  moveSpeed: 0.8
+  spawnCooldown: 3
+  bossMusic: {fileID: 0}

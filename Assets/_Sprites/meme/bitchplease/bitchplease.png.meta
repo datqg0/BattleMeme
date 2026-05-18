@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: 0a3a6a790e3be9e4680a6173d25b59cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2581592087765224995
+    second: bitchplease_0
+  - first:
+      213: -171000417842548470
+    second: bitchplease_1
+  - first:
+      213: -2490891813025498963
+    second: bitchplease_2
+  - first:
+      213: 4099323142275742234
+    second: bitchplease_3
+  - first:
+      213: 8671372827607286927
+    second: bitchplease_4
+  - first:
+      213: 2967636978800263390
+    second: bitchplease_5
+  - first:
+      213: -1925063816760448104
+    second: bitchplease_6
+  - first:
+      213: -8704983776647774267
+    second: bitchplease_7
+  - first:
+      213: -1847228718153971432
+    second: bitchplease_8
+  - first:
+      213: -1843114946346165739
+    second: bitchplease_9
+  - first:
+      213: 2086486134403744660
+    second: bitchplease_10
+  - first:
+      213: -5830754709348956527
+    second: bitchplease_11
+  - first:
+      213: 3782122152389880617
+    second: bitchplease_12
+  - first:
+      213: 3245041314734389747
+    second: bitchplease_13
+  - first:
+      213: -1354087779137168464
+    second: bitchplease_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bitchplease_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 585
+        width: 113
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd17bcd8ca75c2cd0800000000000000
+      internalID: -2581592087765224995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 585
+        width: 114
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a013d06a60c70adf0800000000000000
+      internalID: -171000417842548470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 585
+        width: 130
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8bfa6e7139e6dd0800000000000000
+      internalID: -2490891813025498963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_3
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 585
+        width: 114
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a32e2cda8b3e830800000000000000
+      internalID: 4099323142275742234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_4
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 585
+        width: 114
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84c180d4a7e65870800000000000000
+      internalID: 8671372827607286927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 166
+        width: 146
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed004b7eb1a2f2920800000000000000
+      internalID: 2967636978800263390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_9
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 166
+        width: 152
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ad2d6b8b0fb66e0800000000000000
+      internalID: -1843114946346165739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_10
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 167
+        width: 198
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c9e5a510b4fc10800000000000000
+      internalID: 2086486134403744660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_13
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 164
+        width: 202
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9b53ef1e3b80d20800000000000000
+      internalID: 3245041314734389747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitchplease_14
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 167
+        width: 113
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbd4d1d650553de0800000000000000
+      internalID: -1354087779137168464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c7bafa81f3416ca44b65486f78f033bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bitchplease_0: -2581592087765224995
+      bitchplease_1: -171000417842548470
+      bitchplease_10: 2086486134403744660
+      bitchplease_11: -5830754709348956527
+      bitchplease_12: 3782122152389880617
+      bitchplease_13: 3245041314734389747
+      bitchplease_14: -1354087779137168464
+      bitchplease_2: -2490891813025498963
+      bitchplease_3: 4099323142275742234
+      bitchplease_4: 8671372827607286927
+      bitchplease_5: 2967636978800263390
+      bitchplease_6: -1925063816760448104
+      bitchplease_7: -8704983776647774267
+      bitchplease_8: -1847228718153971432
+      bitchplease_9: -1843114946346165739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

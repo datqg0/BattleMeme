@@ -1,0 +1,294 @@
+{
+    "items": [
+        {
+            "id": "coin_50",
+            "characterName": "50 Coins",
+            "rarity": "Common",
+            "rate": 0.3,
+            "prefabPath": "",
+            "isCurrency": true,
+            "coinReward": 50,
+            "ticketReward": 0
+        },
+        {
+            "id": "coin_100",
+            "characterName": "100 Coins",
+            "rarity": "Rare",
+            "rate": 0.15,
+            "prefabPath": "",
+            "isCurrency": true,
+            "coinReward": 100,
+            "ticketReward": 0
+        },
+        {
+            "id": "ticket_1",
+            "characterName": "1 Gacha Ticket",
+            "rarity": "Rare",
+            "rate": 0.1,
+            "prefabPath": "",
+            "isCurrency": true,
+            "coinReward": 0,
+            "ticketReward": 1
+        },
+        {
+            "id": "bitchplese",
+            "characterName": "bitchplese(unit_template)",
+            "rarity": "SR",
+            "rate": 0.015,
+            "prefabPath": "Heroes/bitchplese(unit_template)",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "cappypara",
+            "characterName": "cappypara",
+            "rarity": "SR",
+            "rate": 0.015,
+            "prefabPath": "Heroes/cappypara",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "coffindance",
+            "characterName": "coffindance",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/coffindance",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "domixi",
+            "characterName": "DoMixi(unit_template)",
+            "rarity": "SR",
+            "rate": 0.015,
+            "prefabPath": "Heroes/DoMixi(unit_template)",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "ishowspeed",
+            "characterName": "ishowspeed",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/ishowspeed",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "mu",
+            "characterName": "mu",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/mu",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "pandameme",
+            "characterName": "pandameme",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/pandameme",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "penguin",
+            "characterName": "penguin",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/penguin",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "pepe",
+            "characterName": "Pepe(unit_template)",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/Pepe(unit_template)",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "pewpew",
+            "characterName": "pewpew",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/pewpew",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "pooh",
+            "characterName": "pooh",
+            "rarity": "SSR",
+            "rate": 0.005,
+            "prefabPath": "Heroes/pooh",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "ricadomilos",
+            "characterName": "ricadomilos",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/ricadomilos",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "saltedeggs",
+            "characterName": "saltedeggs",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/saltedeggs",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "shiba",
+            "characterName": "Shiba(unit_template)",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/Shiba(unit_template)",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "shiba2",
+            "characterName": "shiba2",
+            "rarity": "SR",
+            "rate": 0.015,
+            "prefabPath": "Heroes/shiba2",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "shrek",
+            "characterName": "shrek",
+            "rarity": "SSR",
+            "rate": 0.005,
+            "prefabPath": "Heroes/shrek",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "sigmaman3",
+            "characterName": "SigmaMan(unit_template) 3",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/SigmaMan(unit_template) 3",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "simson",
+            "characterName": "simson",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/simson",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "slenderman",
+            "characterName": "slenderman",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/slenderman",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "steave",
+            "characterName": "steave",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/steave",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "therock",
+            "characterName": "therock",
+            "rarity": "SR",
+            "rate": 0.015,
+            "prefabPath": "Heroes/therock",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "tomlizard",
+            "characterName": "tomlizard",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/tomlizard",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "trollface1",
+            "characterName": "trollface1",
+            "rarity": "Rare",
+            "rate": 0.03,
+            "prefabPath": "Heroes/trollface1",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "trollface2",
+            "characterName": "trollface2",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/trollface2",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "trollface3",
+            "characterName": "trollface3",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/trollface3",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        },
+        {
+            "id": "yunoman",
+            "characterName": "yunoman",
+            "rarity": "Common",
+            "rate": 0.05,
+            "prefabPath": "Heroes/yunoman",
+            "isCurrency": false,
+            "coinReward": 0,
+            "ticketReward": 0
+        }
+    ]
+}
