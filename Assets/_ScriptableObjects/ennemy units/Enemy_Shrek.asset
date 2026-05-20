@@ -17,9 +17,12 @@ MonoBehaviour:
   rewardCoins: 50
   unitSprite: {fileID: -6373023838837440214, guid: 2f487b580d2345a40b518978d2df11bf, type: 3}
   unitAnimator: {fileID: 9100000, guid: a9fda8e0bbea5cd43a41d6e7263b7d35, type: 2}
+  visualScale: 1
+  spawnOffset: {x: 0, y: 0, z: 0}
   health: 60
-  attackDamage: 8
+  attackDamage: 10
   attackRange: 0.1
   attackInterval: 1.2
   moveSpeed: 1.5
-  spawnCooldown: 0
+  spawnCooldown: 3
+  bossMusic: {fileID: 0}

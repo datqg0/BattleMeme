@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,16 +10,19 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI moneyTextDisplay;
     public TextMeshProUGUI coinTextDisplay;
     public GameObject pauseMenuUI; 
-    public GameObject winMenuUI;  // Kéo Panel Thắng vào đây
-    public GameObject loseMenuUI; // Kéo Panel Thua vào đây
+    public GameObject winMenuUI;  
+    public GameObject loseMenuUI; 
+    public TextMeshProUGUI LevelTextDisplay;
+    public Button LevelUp ;
 
     [Header("Game Settings")]
     public LevelData currentLevel; 
 
     [Header("Economy")]
-    public float currentMoney;
-    public float currentCoins; 
-    public float moneyPerSecond = 5f;
+    public float currentMoney =0;
+    public float currentCoins = 0; 
+    float moneyPerSecond = 7f;
+    int level = 1;
 
     [Header("Spawning")]
     public GameObject unitPrefab; 
@@ -28,16 +33,17 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer backgroundDisplay; 
     public SpriteRenderer playerBaseRenderer;
     public SpriteRenderer enemyBaseRenderer;
-    public AudioSource audioSource; // Kéo AudioSource vào đây
+    public AudioSource audioSource; 
 
     [Header("Button UI")]
     public GameObject resumeButton;    
     public GameObject nextLevelButton; 
-    public GameObject restartButton;   // Kéo nút "Chơi lại" vào đây
+    public GameObject restartButton;   
+    int mul = 10;
 
     private bool isPaused = false;
-    private int enemiesKilled = 0;    // Số quân địch đã bị tiêu diệt
-    private bool bossSpawned = false; // Đã sinh Boss chưa?
+    private int enemiesKilled = 0;    
+    private bool bossSpawned = false; 
 
     void Awake()
     {
@@ -54,6 +60,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        LevelUp.image.color = new Color32(255, 0, 0, 100);
         // ĐỒNG BỘ COIN KHI BẮT ĐẦU TRẬN: Lấy từ hệ thống trung tâm
         currentCoins = InventorySystem.Load().coinCount;
         Debug.Log("GameManager: Đã nạp " + currentCoins + " coin từ hệ thống trung tâm.");
@@ -96,6 +103,7 @@ public class GameManager : MonoBehaviour
         if (isPaused) return; 
 
         currentMoney += moneyPerSecond * Time.deltaTime;
+        currentMoney = Math.Min(currentMoney,level*300);
         if (moneyTextDisplay != null)
         {
             moneyTextDisplay.text = Mathf.FloorToInt(currentMoney) + " $ ";
@@ -110,6 +118,11 @@ public class GameManager : MonoBehaviour
         {
             if (isPaused) ResumeGame();
             else PauseGame();
+        }
+        int cost = mul * level;
+        if (currentMoney>=cost)
+        {
+            LevelUp.image.color = new Color32(0, 255, 0, 100);
         }
     }
 
@@ -182,7 +195,19 @@ public class GameManager : MonoBehaviour
         
         Debug.Log("Đã nạp " + amount + " coin. Tổng mới: " + currentCoins);
     }
+    public void Levelup ()
+    {
+        int cost = mul * level;
 
+        if(currentMoney>=cost) {
+            currentMoney -=cost;
+            level++;
+            moneyPerSecond += mul/2;
+            LevelTextDisplay.text = "Level :" + level;
+            LevelUp.image.color = new Color32(255, 0, 0, 100);
+            mul += 2*mul;
+        }
+    }
     public void LoseGame()
     {
         isPaused = true;
@@ -207,7 +232,7 @@ public class GameManager : MonoBehaviour
         if (currentMoney >= unitData.cost)
         {
             currentMoney -= unitData.cost;
-            Vector3 spawnPos = playerSpawnPoint.position + new Vector3(0, Random.Range(-0.3f, 0.3f), 0);
+            Vector3 spawnPos = playerSpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
             
             GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
             newUnit.tag = "Player"; 
@@ -238,7 +263,7 @@ public class GameManager : MonoBehaviour
 
     public void SpawnEnemyUnit(UnitData unitData)
     {
-        Vector3 spawnPos = enemySpawnPoint.position + new Vector3(0, Random.Range(-0.3f, 0.3f), 0);
+        Vector3 spawnPos = enemySpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
 
         GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
         newUnit.tag = "Enemy"; 

@@ -52,4 +52,5 @@ public class MainMenuController : MonoBehaviour
         Debug.Log("Đã đóng game!");
         Application.Quit();
     }
+    
 }

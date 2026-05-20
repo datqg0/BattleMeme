@@ -5,16 +5,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Tilemaps;
 
 public class HeroSelectionUI : MonoBehaviour
 {
     [Header("UI References")]
+    public Transform spawnPoint;
     public GameObject selectionPanel;
     public Transform contentParent;
     public GameObject heroSlotPrefab;
     public Button confirmButton;
     public TextMeshProUGUI selectionCountText; // Ví dụ: "Đã chọn: 3/5"
-
+    public TextMeshProUGUI StoreInformationText;
+    public GameObject spawnhero; 
     [Header("Settings")]
     public string mainMenuSceneName = "MainMenuScene"; 
 
@@ -25,11 +28,12 @@ public class HeroSelectionUI : MonoBehaviour
     private TeamData teamData = new TeamData();
     private List<string> tempSelectedIds = new List<string>(); 
     private List<HeroSelectionSlot> spawnedSlots = new List<HeroSelectionSlot>();
-
+    
     void Start()
     {
         if (selectionPanel != null) selectionPanel.SetActive(false);
         OpenSelection();
+        HeroSelectionManager.Instance.Setup(itemDatabase,spawnPoint,StoreInformationText);
     }
 
     public void OpenSelection()
@@ -146,8 +150,6 @@ public class HeroSelectionUI : MonoBehaviour
         if (selectionCountText != null)
         {
             selectionCountText.text = $"Đã chọn: <color={(isFull ? "green" : "yellow")}>{count}/5</color> Tướng";
-            
-            // Nếu đã đủ 5 con, có thể thêm hiệu ứng lắc nhẹ text hoặc đổi màu
             if (isFull) selectionCountText.text += " (ĐỦ ĐIỀU KIỆN!)";
         }
     }
@@ -182,14 +184,12 @@ public class HeroSelectionUI : MonoBehaviour
 
         Debug.Log("HeroSelectionUI: Đội hình đã được lưu vào team.json!");
         
-        // Chuyển về Main Menu hoặc Scene tiếp theo
         if (!string.IsNullOrEmpty(mainMenuSceneName))
         {
             SceneManager.LoadScene(mainMenuSceneName);
         }
     }
 
-    // Hàm Senior: Xóa sạch lựa chọn hiện tại để chọn lại từ đầu
     public void ClearSelection()
     {
         tempSelectedIds.Clear();
@@ -197,6 +197,7 @@ public class HeroSelectionUI : MonoBehaviour
         Debug.Log("HeroSelectionUI: Đã xóa toàn bộ lựa chọn.");
     }
 
+    
 #if UNITY_EDITOR
     [ContextMenu("Load Database From Folder")]
     public void LoadDatabaseFromFolder()

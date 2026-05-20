@@ -1,29 +1,31 @@
-using UnityEngine;
+
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;using UnityEngine;
 using UnityEngine.UI;
 
 public class HeroSelectionSlot : MonoBehaviour
 {
+    private Transform spawnPoint;
     public Image icon;
     public Image background; // Hình nền của slot để đổi màu
     public Text nameText;
     public GameObject selectionVisual; // Hiện viền sáng hoặc dấu tích khi được chọn
-
     private string heroId;
     private HeroSelectionUI mainUI;
     public string HeroId => heroId;
-
+    
+    
     public void Setup(GachaItemSO item, HeroSelectionUI ui, bool isSelected)
     {
         heroId = item.id;
         mainUI = ui;
-        
         if (icon != null) icon.sprite = item.icon; 
         
         if (nameText != null) nameText.text = item.characterName;
         
         SetSelected(isSelected);
     }
-
     public void SetSelected(bool isSelected)
     {
         if (selectionVisual != null) selectionVisual.SetActive(isSelected);
@@ -40,7 +42,11 @@ public class HeroSelectionSlot : MonoBehaviour
     {
         if (mainUI != null)
         {
+            
+            Debug.Log(heroId);
+            HeroSelectionManager.Instance.DisplayHero(heroId);
             mainUI.SetTemporarySelection(heroId);
         }
     }
+    
 }

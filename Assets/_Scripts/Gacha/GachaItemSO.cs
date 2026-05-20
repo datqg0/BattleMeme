@@ -9,4 +9,5 @@ public class GachaItemSO : ScriptableObject
     public GameObject prefab; // Kéo thả prefab vào đây
     public Sprite icon;       // Icon hiển thị trong UI
     public UnitData unitData; // Thông số chiến đấu của tướng
+    public string UnitStory;
 }

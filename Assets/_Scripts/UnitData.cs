@@ -25,5 +25,4 @@ public class UnitData : ScriptableObject
 
     [Header("Boss Settings")]
     public AudioClip bossMusic; // Nhạc nền riêng khi con này làm Boss
-    
 }

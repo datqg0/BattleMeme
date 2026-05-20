@@ -18,3 +18,4 @@ MonoBehaviour:
   prefab: {fileID: 3383855667139901787, guid: 023687009c542cf4b89b065fa2bf0b60, type: 3}
   icon: {fileID: 1831801422928125737, guid: e004ac273c548ec4dbeb98dfdea3edbf, type: 3}
   unitData: {fileID: 11400000, guid: 4a4a8bc5f240ff74a819d1e07d880385, type: 2}
+  UnitStory: YaoMing
