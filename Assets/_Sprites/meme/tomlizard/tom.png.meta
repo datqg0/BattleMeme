@@ -314,8 +314,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 490
-        y: 180
-        width: 205
+        y: 178
+        width: 201
         height: 260
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -335,9 +335,9 @@ TextureImporter:
       name: tom_9
       rect:
         serializedVersion: 2
-        x: 689
+        x: 694
         y: 179
-        width: 189
+        width: 184
         height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

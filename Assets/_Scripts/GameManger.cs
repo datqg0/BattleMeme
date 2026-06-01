@@ -124,6 +124,10 @@ public class GameManager : MonoBehaviour
         {
             LevelUp.image.color = new Color32(0, 255, 0, 100);
         }
+        else
+        {
+            LevelUp.image.color = new Color32(255, 0, 0, 100);
+        }
     }
 
     public void PauseGame()

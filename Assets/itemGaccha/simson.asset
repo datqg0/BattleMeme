@@ -13,8 +13,19 @@ MonoBehaviour:
   m_Name: simson
   m_EditorClassIdentifier: 
   id: simson
-  characterName: simson
+  characterName: Philip J. Fry
   rarity: 0.2
   prefab: {fileID: 3383855667139901787, guid: a7945826dc3180744bab61ab3745c242, type: 3}
   icon: {fileID: 1830663089504347707, guid: f1c0602b40266734a95ace9b56dcb06e, type: 3}
   unitData: {fileID: 11400000, guid: 67ce10d1c49825f418840beb07378bb7, type: 2}
+  UnitStory: "\u0110\xE2y l\xE0 Philip J. Fry, th\u01B0\u1EDDng \u0111\u01B0\u1EE3c
+    g\u1ECDi ng\u1EAFn g\u1ECDn l\xE0 Fry \u2014 nh\xE2n v\u1EADt ch\xEDnh c\u1EE7a
+    series ho\u1EA1t h\xECnh khoa h\u1ECDc vi\u1EC5n t\u01B0\u1EDFng Futurama. Fry
+    n\u1ED5i ti\u1EBFng v\u1EDBi m\xE1i t\xF3c cam d\u1EF1ng \u0111\u1EE9ng, t\xEDnh
+    c\xE1ch h\u01A1i ng\u1ED1c ngh\u1EBFch nh\u01B0ng h\xE0i h\u01B0\u1EDBc v\xE0
+    th\u01B0\u1EDDng r\u01A1i v\xE0o nh\u1EEFng t\xECnh hu\u1ED1ng k\u1EF3 qu\u1EB7c
+    trong t\u01B0\u01A1ng lai. Tr\xEAn Internet, nh\xE2n v\u1EADt n\xE0y r\u1EA5t
+    n\u1ED5i ti\u1EBFng qua meme \u201CNot sure if...\u201D v\u1EDBi khu\xF4n m\u1EB7t
+    \u0111\u1EA7y nghi ng\u1EDD v\xE0 kh\xF3 hi\u1EC3u. Phi\xEAn b\u1EA3n pixel trong
+    \u1EA3nh khi\u1EBFn Fry tr\xF4ng gi\u1ED1ng nh\xE2n v\u1EADt game retro, t\u1EA1o
+    c\u1EA3m gi\xE1c v\u1EEBa h\xE0i h\u01B0\u1EDBc v\u1EEBa ho\xE0i ni\u1EC7m."

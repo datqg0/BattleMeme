@@ -74,7 +74,7 @@ public class HeroSelectionUI : MonoBehaviour
         }
         spawnedSlots.Clear();
 
-        if (playerInventory.ownedCharacterIds.Count < 5)
+        if (playerInventory.ownedCharacterIds.Count < 1)
         {
             Debug.LogWarning("HeroSelectionUI: Bạn chưa có đủ 5 tướng để lập đội hình! Hãy vào Gacha để nhận thêm.");
             // Có thể hiện UI thông báo tại đây nếu muốn
@@ -177,7 +177,7 @@ public class HeroSelectionUI : MonoBehaviour
 
     public void ConfirmSelection()
     {
-        if (tempSelectedIds.Count != 5) return;
+        //if (tempSelectedIds.Count != 5) return;
 
         teamData.selectedHeroIds = new List<string>(tempSelectedIds);
         InventorySystem.SaveTeam(teamData);

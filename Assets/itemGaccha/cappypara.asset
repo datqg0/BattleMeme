@@ -18,3 +18,12 @@ MonoBehaviour:
   prefab: {fileID: 3383855667139901787, guid: 9ade16ac76bc8cf4bb9505a652c0fa94, type: 3}
   icon: {fileID: 3149610612175073690, guid: 43b1c24dd1c00ee4ba0efe60e85b9dda, type: 3}
   unitData: {fileID: 11400000, guid: abfdcc2942bc6bc4e8078c60ac06a464, type: 2}
+  UnitStory: "Capybara \u2013 \"Chi\u1EBFn th\u1EA7n ngo\u1EA1i giao\" ki\xEAm \u0111\u1EA1i
+    s\u1EE9 th\u01B0\u01A1ng hi\u1EC7u c\u1EE7a l\u1ED1i s\u1ED1ng v\xF4 tri, b\u1EA5t
+    c\u1EA7n \u0111\u1EDDi. V\u1EDBi phong th\xE1i ung dung t\u1EF1 t\u1EA1i, ng\xE2m
+    b\u1ED3n n\u01B0\u1EDBc n\xF3ng m\u1EB7c k\u1EC7 s\u1EF1 \u0111\u1EDDi, ch\xFA
+    chu\u1ED9t lang n\u01B0\u1EDBc n\xE0y \u0111\xE3 bi\u1EBFn th\xE0nh m\u1ED9t
+    \"h\u1EC7 t\u01B0 t\u01B0\u1EDFng\" healing khu\u1EA5y \u0111\u1EA3o c\xF5i m\u1EA1ng.
+    C\u1EE9 b\u1EADt nh\u1EA1c \"Capybara~ Capybara...\" l\xEAn l\xE0 th\u1EA5y c\u1EA3
+    m\u1ED9t b\u1EA7u tr\u1EDDi b\xECnh y\xEAn, n\u01A1i c\xE1 s\u1EA5u c\u0169ng
+    ph\u1EA3i ch\u1ECBu thua tr\u01B0\u1EDBc \u0111\u1ED9 \"chilling\" v\xF4 \u0111\u1ED1i!"
