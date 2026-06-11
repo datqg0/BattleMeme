@@ -14,10 +14,18 @@ public class BaseHealth : MonoBehaviour
 
     void Start()
     {
-        // 1. Thiết lập máu tối đa (Nếu là địch thì nhân theo hệ số level)
-        if (!isPlayerBase && GameManager.Instance != null)
+        // 1. Thiết lập máu tối đa theo hệ số level
+        if (GameManager.Instance != null)
         {
-            maxHealth *= GameManager.Instance.currentLevel.enemyHealthMultiplier;
+            if (!isPlayerBase)
+            {
+                maxHealth *= GameManager.Instance.currentLevel.enemyHealthMultiplier;
+            }
+            else
+            {
+                // Player base: nhân nhẹ (tránh quá khó sớm)
+                maxHealth *= Mathf.Lerp(1.0f, GameManager.Instance.currentLevel.baseHealthMultiplier, 0.3f);
+            }
         }
         
         currentHealth = maxHealth;

@@ -22,6 +22,12 @@ public class EnemyAI : MonoBehaviour
     {
         if (GameManager.Instance == null || GameManager.Instance.currentLevel == null) return;
 
+        // Kiểm tra xem đã đạt giới hạn 20 enemies chưa
+        if (GameManager.Instance.GetCurrentEnemyCount() >= 20)
+        {
+            return;  // Không spawn nếu đã có 20 enemies
+        }
+
         List<UnitData> levelEnemies = GameManager.Instance.currentLevel.levelEnemies;
 
         if (levelEnemies == null || levelEnemies.Count == 0) 

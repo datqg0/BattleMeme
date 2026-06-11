@@ -253,6 +253,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -348,10 +361,10 @@ TextureImporter:
       name: mu_4
       rect:
         serializedVersion: 2
-        x: 975
+        x: 976
         y: 583
-        width: 146
-        height: 286
+        width: 145
+        height: 270
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,8 +385,8 @@ TextureImporter:
         serializedVersion: 2
         x: 326
         y: 164
-        width: 212
-        height: 307
+        width: 204
+        height: 311
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +471,10 @@ TextureImporter:
       name: mu_41
       rect:
         serializedVersion: 2
-        x: 519
-        y: 146
-        width: 193
-        height: 275
+        x: 544
+        y: 163
+        width: 168
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

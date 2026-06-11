@@ -234,6 +234,12 @@ public class Unit : MonoBehaviour
             // GameManager.Instance.AddCoins(data.rewardCoins); // Dòng cũ
             GameManager.Instance.RegisterEnemyKilled(isBoss); // Truyền thêm biến isBoss vào đây
         }
+        
+        // Nếu là lính Ta bị tiêu diệt
+        if (isPlayerUnit && GameManager.Instance != null)
+        {
+            GameManager.Instance.DecreasePlayerCount();
+        }
 
         Destroy(gameObject);
     }

@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: penguin
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
   unitName: Pepe
-  cost: 70
+  cost: 100
   rewardCoins: 0
   unitSprite: {fileID: -6394888585581640024, guid: 8e77edc22cbf66243b1e628d5aeef89d, type: 3}
   unitAnimator: {fileID: 9100000, guid: df033147161648949ab6fa0c6e996836, type: 2}
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
   health: 450
-  attackDamage: 100
+  attackDamage: 40
   attackRange: 0.35
   attackInterval: 0.75
   moveSpeed: 0.65

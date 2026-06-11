@@ -19,8 +19,8 @@ MonoBehaviour:
   unitAnimator: {fileID: 9100000, guid: 83552634b64532f4088649c2184475e8, type: 2}
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
-  health: 100
-  attackDamage: 15
+  health: 250
+  attackDamage: 18
   attackRange: 0.1
   attackInterval: 1
   moveSpeed: 2

@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: DoMixi Meme
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
   unitName: Domixi
-  cost: 50
+  cost: 90
   rewardCoins: 0
   unitSprite: {fileID: 199771140032751570, guid: b7af51b8a6805a84fb550149d357fc85, type: 3}
   unitAnimator: {fileID: 9100000, guid: 5d095fc9109bfb54dace40e4f06c4168, type: 2}
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
-  health: 500
-  attackDamage: 500
-  attackRange: 0.7
-  attackInterval: 2.5
+  health: 450
+  attackDamage: 90
+  attackRange: 0.45
+  attackInterval: 2
   moveSpeed: 0.6
-  spawnCooldown: 5
+  spawnCooldown: 8
   bossMusic: {fileID: 0}

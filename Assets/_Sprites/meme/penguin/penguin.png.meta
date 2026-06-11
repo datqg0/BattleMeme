@@ -148,6 +148,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -265,10 +278,10 @@ TextureImporter:
       name: penguin_5
       rect:
         serializedVersion: 2
-        x: 42
+        x: 89
         y: 142
-        width: 196
-        height: 233
+        width: 149
+        height: 226
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +300,10 @@ TextureImporter:
       name: penguin_6
       rect:
         serializedVersion: 2
-        x: 279
+        x: 277
         y: 142
-        width: 171
-        height: 229
+        width: 172
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +322,10 @@ TextureImporter:
       name: penguin_8
       rect:
         serializedVersion: 2
-        x: 462
-        y: 141
-        width: 140
-        height: 235
+        x: 460
+        y: 140
+        width: 142
+        height: 227
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

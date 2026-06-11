@@ -142,6 +142,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -151,8 +164,8 @@ TextureImporter:
         serializedVersion: 2
         x: 772
         y: 586
-        width: 124
-        height: 282
+        width: 122
+        height: 255
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +184,10 @@ TextureImporter:
       name: coffindance_2
       rect:
         serializedVersion: 2
-        x: 985
+        x: 983
         y: 586
-        width: 123
-        height: 282
+        width: 125
+        height: 255
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +272,10 @@ TextureImporter:
       name: coffindance_6
       rect:
         serializedVersion: 2
-        x: 26
-        y: 164
-        width: 248
-        height: 267
+        x: 112
+        y: 165
+        width: 162
+        height: 266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,10 +294,10 @@ TextureImporter:
       name: coffindance_7
       rect:
         serializedVersion: 2
-        x: 339
+        x: 338
         y: 164
-        width: 175
-        height: 252
+        width: 176
+        height: 265
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +316,10 @@ TextureImporter:
       name: coffindance_8
       rect:
         serializedVersion: 2
-        x: 534
+        x: 539
         y: 158
-        width: 169
-        height: 259
+        width: 164
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,9 +339,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 713
-        y: 147
+        y: 159
         width: 269
-        height: 262
+        height: 269
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +360,10 @@ TextureImporter:
       name: coffindance_10
       rect:
         serializedVersion: 2
-        x: 985
-        y: 164
-        width: 173
-        height: 252
+        x: 988
+        y: 162
+        width: 170
+        height: 264
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

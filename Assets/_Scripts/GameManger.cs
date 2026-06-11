@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     [Header("Economy")]
     public float currentMoney =0;
     public float currentCoins = 0; 
-    float moneyPerSecond = 7f;
+    float moneyPerSecond = 8f;
     int level = 1;
 
     [Header("Spawning")]
@@ -39,11 +39,13 @@ public class GameManager : MonoBehaviour
     public GameObject resumeButton;    
     public GameObject nextLevelButton; 
     public GameObject restartButton;   
-    int mul = 10;
+    float mul = 10;
 
     private bool isPaused = false;
     private int enemiesKilled = 0;    
-    private bool bossSpawned = false; 
+    private bool bossSpawned = false;
+    private int currentEnemyCount = 0;  // Đếm số enemy hiện tại trên bản đồ
+    private int currentPlayerCount = 0;  // Đếm số player hiện tại trên bản đồ 
 
     void Awake()
     {
@@ -119,7 +121,7 @@ public class GameManager : MonoBehaviour
             if (isPaused) ResumeGame();
             else PauseGame();
         }
-        int cost = mul * level;
+        int cost = 10 * level * level;
         if (currentMoney>=cost)
         {
             LevelUp.image.color = new Color32(0, 255, 0, 100);
@@ -201,7 +203,7 @@ public class GameManager : MonoBehaviour
     }
     public void Levelup ()
     {
-        int cost = mul * level;
+        int cost = 10 * level * level;
 
         if(currentMoney>=cost) {
             currentMoney -=cost;
@@ -209,7 +211,7 @@ public class GameManager : MonoBehaviour
             moneyPerSecond += mul/2;
             LevelTextDisplay.text = "Level :" + level;
             LevelUp.image.color = new Color32(255, 0, 0, 100);
-            mul += 2*mul;
+            mul=1.35f*mul;
         }
     }
     public void LoseGame()
@@ -233,18 +235,28 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayerUnit(UnitData unitData)
     {
+        // Kiểm tra xem đã đạt giới hạn 25 players chưa
+        if (currentPlayerCount >= 25)
+        {
+            Debug.LogWarning("Đã đạt giới hạn 25 quân!");
+            return;
+        }
+        
         if (currentMoney >= unitData.cost)
         {
             currentMoney -= unitData.cost;
             Vector3 spawnPos = playerSpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
             
             GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
+            newUnit.name = unitData.unitName;  // Đặt tên đúng trong hierarchy
             newUnit.tag = "Player"; 
             newUnit.layer = LayerMask.NameToLayer("Player"); 
 
             Unit unitScript = newUnit.GetComponent<Unit>();
             unitScript.data = unitData;
-            unitScript.isPlayerUnit = true; 
+            unitScript.isPlayerUnit = true;
+            
+            currentPlayerCount++;  // Tăng số lượng player
         }
     }
 
@@ -270,6 +282,7 @@ public class GameManager : MonoBehaviour
         Vector3 spawnPos = enemySpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
 
         GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
+        newUnit.name = unitData.unitName;  // Đặt tên đúng trong hierarchy
         newUnit.tag = "Enemy"; 
         newUnit.layer = LayerMask.NameToLayer("Enemy"); 
         SpriteRenderer sr = newUnit.GetComponentInChildren<SpriteRenderer>();
@@ -277,7 +290,9 @@ public class GameManager : MonoBehaviour
 
         Unit unitScript = newUnit.GetComponent<Unit>();
         unitScript.data = unitData;
-        unitScript.isPlayerUnit = false; 
+        unitScript.isPlayerUnit = false;
+        
+        currentEnemyCount++;  // Tăng số lượng enemy
     }
 
     public void SpawnBoss()
@@ -285,8 +300,9 @@ public class GameManager : MonoBehaviour
         if (currentLevel == null || currentLevel.bossUnit == null) return;
 
         bossSpawned = true;
-        Vector3 spawnPos = new Vector3(enemySpawnPoint.position.x, enemySpawnPoint.position.y + 0.5f, 0);
+        Vector3 spawnPos = new Vector3(enemySpawnPoint.position.x, enemySpawnPoint.position.y + 0.5f, 2);
         GameObject bossObj = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
+        bossObj.name = currentLevel.bossUnit.unitName;  // Đặt tên đúng cho boss
         
         bossObj.tag = "Enemy"; 
         bossObj.layer = LayerMask.NameToLayer("Enemy"); 
@@ -306,6 +322,8 @@ public class GameManager : MonoBehaviour
         {
             PlayBossMusic(currentLevel.bossUnit.bossMusic);
         }
+
+        currentEnemyCount++;  // Tăng số lượng enemy khi boss xuất hiện
 
         Debug.Log("<color=red>CẢNH BÁO: BOSS ĐÃ XUẤT HIỆN!</color>");
     }
@@ -351,6 +369,8 @@ public class GameManager : MonoBehaviour
     public void RegisterEnemyKilled(bool wasBoss)
     {
         enemiesKilled++;
+        currentEnemyCount--;  // Giảm số lượng enemy hiện tại
+        
         if (currentLevel != null)
         {
             AddCoinsToInventory(currentLevel.coinRewardPerEnemy);
@@ -370,6 +390,24 @@ public class GameManager : MonoBehaviour
                 SpawnBoss();
                 bossSpawned = true;
             }
+        }
+    }
+
+    public int GetCurrentEnemyCount()
+    {
+        return currentEnemyCount;
+    }
+
+    public int GetCurrentPlayerCount()
+    {
+        return currentPlayerCount;
+    }
+
+    public void DecreasePlayerCount()
+    {
+        if (currentPlayerCount > 0)
+        {
+            currentPlayerCount--;
         }
     }
 }

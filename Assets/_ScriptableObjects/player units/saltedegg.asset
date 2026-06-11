@@ -20,7 +20,7 @@ MonoBehaviour:
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
   health: 500
-  attackDamage: 7
+  attackDamage: 18
   attackRange: 0.3
   attackInterval: 1.5
   moveSpeed: 0.7

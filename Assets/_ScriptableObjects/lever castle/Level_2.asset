@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level_2
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   levelNumber: 2
-  enemyHealthMultiplier: 1
-  baseHealthMultiplier: 2
+  enemyHealthMultiplier: 1.2
+  baseHealthMultiplier: 1.5
   levelEnemies:
   - {fileID: 11400000, guid: ca9076286c3ab294a88e93b6c526b99c, type: 2}
   - {fileID: 11400000, guid: 90e12128176063b40b036a3fa47f825a, type: 2}
@@ -27,6 +27,6 @@ MonoBehaviour:
   playerBaseSprite: {fileID: -2008963822829355752, guid: 57b74a43de7507b468628f2c46d67f2f, type: 3}
   enemyBaseSprite: {fileID: 8606453610214823136, guid: a913808a26c740c4698b69566d1705b9, type: 3}
   levelBGM: {fileID: 8300000, guid: 3109f43d047b6f447bd8d1189103c03f, type: 3}
-  completionBonus: 300
-  coinRewardPerEnemy: 5
+  completionBonus: 100
+  coinRewardPerEnemy: 1
   nextLevel: {fileID: 11400000, guid: 06fb8ff4fd385ca49b939eb361a424e6, type: 2}

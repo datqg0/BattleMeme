@@ -27,6 +27,6 @@ MonoBehaviour:
   playerBaseSprite: {fileID: -2008963822829355752, guid: 57b74a43de7507b468628f2c46d67f2f, type: 3}
   enemyBaseSprite: {fileID: 8606453610214823136, guid: a913808a26c740c4698b69566d1705b9, type: 3}
   levelBGM: {fileID: 8300000, guid: 663642cdeed1e304c8f6d42e34d9f63d, type: 3}
-  completionBonus: 100
-  coinRewardPerEnemy: 2
+  completionBonus: 50
+  coinRewardPerEnemy: 1
   nextLevel: {fileID: 11400000, guid: b154d19c34892864993915d75336b76d, type: 2}

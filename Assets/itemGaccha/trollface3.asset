@@ -16,7 +16,7 @@ MonoBehaviour:
   characterName: trollface 3.0
   rarity: 0.01
   prefab: {fileID: 3383855667139901787, guid: 2ea36b31d1e44f544bce7c58ab0ae4d3, type: 3}
-  icon: {fileID: -6470460504253458178, guid: 2c6fabd34b5a80449b76805d5d271d64, type: 3}
+  icon: {fileID: 5866350707612478125, guid: 5d0a17d7fce849f468a23a17efdb8c2e, type: 3}
   unitData: {fileID: 11400000, guid: 775b72ec6c058ab4dbb72b0a72c11405, type: 2}
   UnitStory: "Trollface l\xE0 m\u1ED9t trong nh\u1EEFng meme huy\u1EC1n tho\u1EA1i
     n\u1ED5i ti\u1EBFng nh\u1EA5t c\u1EE7a Internet \u0111\u1EDDi \u0111\u1EA7u.

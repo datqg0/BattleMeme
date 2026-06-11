@@ -20,9 +20,9 @@ MonoBehaviour:
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
   health: 450
-  attackDamage: 50
+  attackDamage: 40
   attackRange: 0.1
-  attackInterval: 0.33333334
+  attackInterval: 0.5
   moveSpeed: 0.9
   spawnCooldown: 25
   bossMusic: {fileID: 0}

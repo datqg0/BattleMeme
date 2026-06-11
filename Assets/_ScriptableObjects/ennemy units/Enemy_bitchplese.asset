@@ -19,10 +19,10 @@ MonoBehaviour:
   unitAnimator: {fileID: 9100000, guid: eff95179ddb826546a06dc11893feb1d, type: 2}
   visualScale: 1
   spawnOffset: {x: 0, y: 0, z: 0}
-  health: 100
-  attackDamage: 15
+  health: 250
+  attackDamage: 20
   attackRange: 0.1
   attackInterval: 1
-  moveSpeed: 3
+  moveSpeed: 2
   spawnCooldown: 8
   bossMusic: {fileID: 0}

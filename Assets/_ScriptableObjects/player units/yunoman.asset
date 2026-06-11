@@ -24,5 +24,5 @@ MonoBehaviour:
   attackRange: 0.36
   attackInterval: 0.8
   moveSpeed: 0.76
-  spawnCooldown: 50
+  spawnCooldown: 20
   bossMusic: {fileID: 0}

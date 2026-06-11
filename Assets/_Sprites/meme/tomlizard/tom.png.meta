@@ -159,10 +159,10 @@ TextureImporter:
       name: tom_0
       rect:
         serializedVersion: 2
-        x: 69
+        x: 83
         y: 636
-        width: 177
-        height: 265
+        width: 171
+        height: 267
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,8 +337,8 @@ TextureImporter:
         serializedVersion: 2
         x: 694
         y: 179
-        width: 184
-        height: 256
+        width: 180
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: tom_10
       rect:
         serializedVersion: 2
-        x: 876
-        y: 180
-        width: 177
-        height: 312
+        x: 880
+        y: 179
+        width: 173
+        height: 262
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
