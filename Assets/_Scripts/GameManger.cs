@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public GameObject unitPrefab; 
     public Transform playerSpawnPoint; 
     public Transform enemySpawnPoint;  
+    public float spawnYRange = 0.6f;   // Khoảng lệch Y khi spawn (chỉnh trong Inspector)
 
     [Header("Graphics & Objects")]
     public SpriteRenderer backgroundDisplay; 
@@ -236,16 +237,16 @@ public class GameManager : MonoBehaviour
     public void SpawnPlayerUnit(UnitData unitData)
     {
         // Kiểm tra xem đã đạt giới hạn 25 players chưa
-        if (currentPlayerCount >= 25)
+        if (currentPlayerCount >= 20)
         {
-            Debug.LogWarning("Đã đạt giới hạn 25 quân!");
+            Debug.LogWarning("Đã đạt giới hạn 20 quân!");
             return;
         }
         
         if (currentMoney >= unitData.cost)
         {
             currentMoney -= unitData.cost;
-            Vector3 spawnPos = playerSpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
+            Vector3 spawnPos = playerSpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-spawnYRange, spawnYRange), 0);
             
             GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
             newUnit.name = unitData.unitName;  // Đặt tên đúng trong hierarchy
@@ -279,14 +280,15 @@ public class GameManager : MonoBehaviour
 
     public void SpawnEnemyUnit(UnitData unitData)
     {
-        Vector3 spawnPos = enemySpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-0.3f, 0.3f), 0);
+        Vector3 spawnPos = enemySpawnPoint.position + new Vector3(0, UnityEngine.Random.Range(-spawnYRange, spawnYRange), 0);
 
         GameObject newUnit = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
         newUnit.name = unitData.unitName;  // Đặt tên đúng trong hierarchy
         newUnit.tag = "Enemy"; 
         newUnit.layer = LayerMask.NameToLayer("Enemy"); 
         SpriteRenderer sr = newUnit.GetComponentInChildren<SpriteRenderer>();
-        if (sr != null) sr.color = Color.red;
+        // Đỏ nhạt (alpha 85%) để vẫn thấy sprite nhưng phân biệt được phe
+        if (sr != null) sr.color = new Color(1f, 0.4f, 0.4f, 0.95f);
 
         Unit unitScript = newUnit.GetComponent<Unit>();
         unitScript.data = unitData;
@@ -300,15 +302,17 @@ public class GameManager : MonoBehaviour
         if (currentLevel == null || currentLevel.bossUnit == null) return;
 
         bossSpawned = true;
-        Vector3 spawnPos = new Vector3(enemySpawnPoint.position.x, enemySpawnPoint.position.y + 0.5f, 2);
+        Vector3 spawnPos = new Vector3(enemySpawnPoint.position.x, enemySpawnPoint.position.y + 0.5f, 0); // Z=0 đồng nhất
         GameObject bossObj = Instantiate(unitPrefab, spawnPos, Quaternion.identity);
         bossObj.name = currentLevel.bossUnit.unitName;  // Đặt tên đúng cho boss
         
         bossObj.tag = "Enemy"; 
         bossObj.layer = LayerMask.NameToLayer("Enemy"); 
-        bossObj.transform.localScale *= 3f;
+        // KHÔNG nhân scale ở đây nữa! Unit.Start() đã apply data.visualScale rồi
+        // → Hãy chỉnh kích thước Boss trong UnitData.visualScale trong Inspector
         SpriteRenderer srBoss = bossObj.GetComponentInChildren<SpriteRenderer>();
-        if (srBoss != null) srBoss.color = Color.red;
+        // Boss cũng dùng đỏ nhạt cho đồng nhất với enemy thường
+        if (srBoss != null) srBoss.color = new Color(1f, 0.4f, 0.4f, 0.95f);
 
         Unit bossScript = bossObj.GetComponent<Unit>();
         if (bossScript != null)
@@ -322,9 +326,6 @@ public class GameManager : MonoBehaviour
         {
             PlayBossMusic(currentLevel.bossUnit.bossMusic);
         }
-
-        currentEnemyCount++;  // Tăng số lượng enemy khi boss xuất hiện
-
         Debug.Log("<color=red>CẢNH BÁO: BOSS ĐÃ XUẤT HIỆN!</color>");
     }
 

@@ -250,7 +250,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.24, y: 2.82}
+    oldSize: {x: 1.22, y: 2.55}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -275,6 +275,7 @@ MonoBehaviour:
   hpSliderObject: {fileID: 625526729816640762}
   healthBonus: 1
   isBoss: 0
+  deadEffectPrefab: {fileID: 6935326701382905241, guid: d683c5eb37388ca4b864d10661a38e24, type: 3}
 --- !u!95 &5926367101638307073
 Animator:
   serializedVersion: 7

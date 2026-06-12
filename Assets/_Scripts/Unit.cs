@@ -17,12 +17,15 @@ public class Unit : MonoBehaviour
     public bool isBoss;             // Đánh dấu nếu con này là Boss
     private float nextAttackTime;   
     private Rigidbody2D rb;
+    private SpriteRenderer sr;   // Cache lại để không gọi GetComponent mỗi frame
     private bool isDead = false;
+    public GameObject deadEffectPrefab;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sr = GetComponentInChildren<SpriteRenderer>(); // Cache một lần duy nhất
 
         // Tự động tìm linh kiện Slider từ Object bạn kéo vào
         if (hpSliderObject != null)
@@ -65,8 +68,7 @@ public class Unit : MonoBehaviour
                 }
             }
 
-            // 2. ĐỔI HÌNH ẢNH (Dùng InChildren để chắc chắn tìm thấy hình)
-            SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+            // 2. ĐỔI HÌNH ẢNH (Dùng cached sr)
             if (sr != null) sr.sprite = data.unitSprite;
 
             // 3. ĐỔI BỘ ANIMATION RIÊNG
@@ -125,12 +127,12 @@ public class Unit : MonoBehaviour
             Move(direction);
         }
 
-        // 2. CẬP NHẬT SORTING ORDER DỰA TRÊN TRỤC Y (Tạo chiều sâu)
-        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+        // 2. CẬP NHẬT SORTING ORDER DỰA TRÊN CHÂN SPRITE (Tạo chiều sâu chính xác)
         if (sr != null)
         {
-            // Y càng nhỏ (càng ở dưới) thì Sorting Order càng cao (hiện lên trước)
-            sr.sortingOrder = Mathf.RoundToInt(transform.position.y * -100);
+            // Dùng bounds.min.y (chân sprite) thay vì tâm → Boss to vẫn sort đúng
+            float footY = sr.bounds.min.y;
+            sr.sortingOrder = Mathf.RoundToInt(footY * -10);
         }
 
         // Vẽ vùng kiểm tra (để Debug)
@@ -143,7 +145,6 @@ public class Unit : MonoBehaviour
         SafeSetAnimBool("isAttacking", false);
         rb.linearVelocity = new Vector2(direction * data.moveSpeed, rb.linearVelocity.y);
 
-        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
         if (sr != null) sr.flipX = (direction < 0);
     }
 
@@ -232,12 +233,14 @@ public class Unit : MonoBehaviour
         if (!isPlayerUnit && GameManager.Instance != null && data != null)
         {
             // GameManager.Instance.AddCoins(data.rewardCoins); // Dòng cũ
+            if(deadEffectPrefab != null) Instantiate(deadEffectPrefab, new Vector3(transform.position.x, transform.position.y, -0.1f), Quaternion.identity);
             GameManager.Instance.RegisterEnemyKilled(isBoss); // Truyền thêm biến isBoss vào đây
         }
         
         // Nếu là lính Ta bị tiêu diệt
         if (isPlayerUnit && GameManager.Instance != null)
         {
+            if(deadEffectPrefab != null) Instantiate(deadEffectPrefab, new Vector3(transform.position.x, transform.position.y, -0.1f), Quaternion.identity);
             GameManager.Instance.DecreasePlayerCount();
         }
 
