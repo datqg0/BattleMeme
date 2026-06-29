@@ -24,14 +24,12 @@ public class MainMenuController : MonoBehaviour
     // Hàm này để nhấn nút PLAY sẽ chuyển sang Sảnh chọn màn
     public void PlayGame()
     {
-        Debug.Log("Chuyển sang LoppyScene...");
-        SceneManager.LoadScene("LoppyScene"); 
+        SceneManager.LoadScene("Map1"); 
     }
 
     // Hàm này để thoát khỏi màn hình Gacha quay về Sảnh
     public void ExitGacha()
     {
-        Debug.Log("Thoát Gacha, về LoppyScene...");
         SceneManager.LoadScene("MainMenuScene");
     }
     public void GoToGacha()

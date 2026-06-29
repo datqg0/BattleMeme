@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
     public void LoadLobby()
     {
         Time.timeScale = 1; 
-        SceneManager.LoadScene("LoppyScene"); 
+        SceneManager.LoadScene("Map1"); 
     }
 
     void Update()
@@ -194,13 +194,10 @@ public class GameManager : MonoBehaviour
 
     private void AddCoinsToInventory(int amount)
     {
-        // Sử dụng hệ thống trung tâm để cộng tiền (An toàn tuyệt đối)
         InventorySystem.AddCoins(amount);
         
         // Cập nhật lại biến hiển thị để UI nhảy số
         currentCoins = InventorySystem.Load().coinCount;
-        
-        Debug.Log("Đã nạp " + amount + " coin. Tổng mới: " + currentCoins);
     }
     public void Levelup ()
     {
