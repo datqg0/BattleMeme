@@ -15,7 +15,7 @@ MonoBehaviour:
   unitName: Domixi
   cost: 0
   rewardCoins: 0
-  unitSprite: {fileID: 199771140032751570, guid: b7af51b8a6805a84fb550149d357fc85, type: 3}
+  unitSprite: {fileID: 7222066130240952562, guid: d8881d2475f6e0a47b1b22a230582174, type: 3}
   unitAnimator: {fileID: 9100000, guid: 5d095fc9109bfb54dace40e4f06c4168, type: 2}
   visualScale: 1.5
   spawnOffset: {x: 0, y: 0, z: 0}

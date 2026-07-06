@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     public GameObject unitPrefab; 
     public Transform playerSpawnPoint; 
     public Transform enemySpawnPoint;  
-    public float spawnYRange = 0.6f;   // Khoảng lệch Y khi spawn (chỉnh trong Inspector)
+    public float spawnYRange = 0.3f;
 
     [Header("Graphics & Objects")]
     public SpriteRenderer backgroundDisplay; 
@@ -45,21 +45,19 @@ public class GameManager : MonoBehaviour
     private bool isPaused = false;
     private int enemiesKilled = 0;    
     private bool bossSpawned = false;
-    private int currentEnemyCount = 0;  // Đếm số enemy hiện tại trên bản đồ
-    private int currentPlayerCount = 0;  // Đếm số player hiện tại trên bản đồ 
-
+    private int currentEnemyCount = 0;
+    private int currentPlayerCount = 0;
+    public static LevelData selectedLevel; 
     void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
 
         Time.timeScale = 1; 
-
-        // 2. TIỀN TRONG TRẬN BẮT ĐẦU TỪ 0
         currentMoney = 0;
     }
 
-    public static LevelData selectedLevel; 
+    
 
     void Start()
     {

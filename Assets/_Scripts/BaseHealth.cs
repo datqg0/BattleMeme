@@ -70,7 +70,7 @@ public class BaseHealth : MonoBehaviour
             if (isPlayerBase)
             {
                 Debug.Log("THẤT BẠI! Nhà chính đã bị phá hủy.");
-                GameManager.Instance.LoseGame(); // Gọi hàm Thua cuộc mới
+                GameManager.Instance.LoseGame();
             }
             else
             {
